@@ -9,3 +9,7 @@ if num>50:
 
 else:
     print("number is less than 50")
+    if num<0:
+        num = -num
+        print("number is negative.")
+        print(num)
